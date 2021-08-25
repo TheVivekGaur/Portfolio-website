@@ -33,8 +33,6 @@ hr {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  /* margin-top: 1rem;
-  margin-bottom: 1rem; */
 
 }
 
@@ -177,3 +175,14 @@ font-size:large;
 .footer ul{
   padding-inline-start: 0px;
 }
+
+@media only screen and (max-width: 500px)
+{
+    .navigation{
+      padding: 0.5rem;
+    }
+    .link {
+      padding: 0rem 0rem;
+    }
+}
+
